@@ -34,13 +34,19 @@
 .col {
   flex: 1 0 0%;
 }
-.col-1 {
-  flex: 0 0 auto;
-  width: 8.33333333%;
-}
+.col-1,
 .col-2,
-.col-3 {
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9 {
   flex: 0 0 auto;
+}
+.col-1 {
+  width: 8.33333333%;
 }
 .col-2 {
   width: 16.66666667%;
@@ -48,29 +54,17 @@
 .col-3 {
   width: 25%;
 }
-.col-4,
-.col-5 {
-  flex: 0 0 auto;
-}
 .col-4 {
   width: 33.33333333%;
 }
 .col-5 {
   width: 41.66666667%;
 }
-.col-6,
-.col-7 {
-  flex: 0 0 auto;
-}
 .col-6 {
   width: 50%;
 }
 .col-7 {
   width: 58.33333333%;
-}
-.col-8,
-.col-9 {
-  flex: 0 0 auto;
 }
 .col-8 {
   width: 66.66666667%;
